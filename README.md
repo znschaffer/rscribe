@@ -16,10 +16,9 @@ cargo install rscribe
 
 ```bash
 rscribe Cargo.toml Cargo.json
-       [ input  ] [ output ]
+       [   in    ] [   out   ]
 
-rscribe -f json Cargo.toml
-       [format]
+rscribe -f [json, toml, yaml] Cargo.toml
 ```
 rscribe infers file formats via the extensions on the input and output paths.
 
