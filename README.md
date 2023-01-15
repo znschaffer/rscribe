@@ -10,7 +10,7 @@ Currently supported filetype:
 ## Install
 
 ```bash
-cargo install scribe
+cargo install rscribe
 ```
 ## Usage
 
