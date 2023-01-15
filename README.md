@@ -1,4 +1,4 @@
-# Scribe
+# rscribe
 
 A tool to convert between different notations and markup languages.
 
@@ -15,10 +15,13 @@ cargo install scribe
 ## Usage
 
 ```bash
-scribe Cargo.toml Cargo.json
+rscribe Cargo.toml Cargo.json
        [ input  ] [ output ]
+
+rscribe -f json Cargo.toml
+       [format]
 ```
-Scribe infers file formats via the extensions on the input and output paths.
+rscribe infers file formats via the extensions on the input and output paths.
 
 ## Todo
 
