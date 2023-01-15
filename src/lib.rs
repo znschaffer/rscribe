@@ -1,6 +1,6 @@
 use std::{fs, path::PathBuf};
 
-use anyhow::{anyhow, Context};
+use anyhow::anyhow;
 use clap::{command, Parser};
 
 #[derive(Parser)]
